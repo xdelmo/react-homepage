@@ -46,9 +46,9 @@ function App() {
           </div>
         </aside>
 
-        <footer className="bg-primary">
+        <footer className="bg-primary border-t-[1px] border-solid border-accent">
           {/* <!-- Footer content --> */}
-          <div className="flex items-center justify-center gap-5 font-semibold uppercase grid-span-1 font-secondary border-t-[1px] border-solid border-accent">
+          <div className="flex items-center justify-center gap-5 font-semibold uppercase border-solid grid-span-1 font-secondary border-r-[1px] border-accent">
             <span>
               <a href="">FB</a>
             </span>
@@ -56,10 +56,11 @@ function App() {
               <a href="">IG</a>
             </span>
           </div>
-          <div className="grid-span-2 border-x-accent border-solid border-[1px] font-main uppercase font-semibold text-5xl flex justify-center items-center">
+          <div className="flex items-center justify-center text-5xl font-semibold uppercase grid-span-2 font-main">
             <span>Lasciati consigliare</span>
           </div>
-          <div className="flex items-center justify-end grid-span-3 border-t-[1px] border-solid border-accent">
+          {/* <!-- Cerchio --> */}
+          <div className="flex items-center justify-end border-l-[1px] border-solid grid-span-3 border-accent">
             <div className="m-5 rounded-full w-9 h-9 bg-accent"></div>
           </div>
         </footer>
