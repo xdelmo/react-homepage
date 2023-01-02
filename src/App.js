@@ -41,7 +41,7 @@ function App() {
 
         <aside className="flex items-center border-accent border-l-[1px] justify-center overflow-hidden">
           {/* <!-- Sidebar / Ads --> */}
-          <div className="font-bold uppercase font-main text-[9.5rem] text-vertical-right">
+          <div className="font-bold uppercase font-main text-[8rem] lg:text-[9.5rem] text-vertical-right">
             occasioni
           </div>
         </aside>
