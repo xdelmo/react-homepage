@@ -3,11 +3,11 @@ import MainImg from "./MainImg";
 
 function MainHomepage() {
   return (
-    <main className="flex">
+    <main className="flex border-solid border-t-[1px] border-b-[1px] border-r-[0px] border-l-[0px] border-accent">
       {/* <!-- Main content --> */}
-      <MainImg />
-      <MainImg />
-      <MainImg />
+      <MainImg borderLateral={false} />
+      <MainImg borderLateral={true} />
+      <MainImg borderLateral={false} />
     </main>
   );
 }

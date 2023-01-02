@@ -1,8 +1,13 @@
 import React from "react";
 
-function MainImg() {
+function MainImg({ borderLateral }) {
+  console.log(borderLateral);
   return (
-    <div className="flex-1 border-[1px] border-solid border-accent flex flex-col justify-center items-center">
+    <div
+      className={`flex-1 ${
+        borderLateral ? `border-l-[1px] border-r-[1px]` : ""
+      } border-solid border-accent flex flex-col justify-center items-center`}
+    >
       {/* 1 img */}
       <div className="m-8 mb-0">
         {" "}
