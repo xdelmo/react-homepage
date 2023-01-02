@@ -41,12 +41,12 @@ function App() {
 
         <aside className="flex items-center border-accent border-l-[1px] justify-center overflow-hidden">
           {/* <!-- Sidebar / Ads --> */}
-          <div className="font-bold uppercase text-[9.5rem] text-vertical-right">
+          <div className="font-bold uppercase font-main text-[9.5rem] text-vertical-right">
             occasioni
           </div>
         </aside>
 
-        <footer className="bg-primary border-t-[1px] border-solid border-accent">
+        <footer className="bg-primary border-t-[1px] border-b-[0px] border-solid border-accent">
           {/* <!-- Footer content --> */}
           <div className="flex items-center justify-center gap-5 font-semibold uppercase border-solid grid-span-1 font-secondary border-r-[1px] border-accent">
             <span>
