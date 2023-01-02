@@ -85,6 +85,7 @@
     animation-play-state: paused;
   }
 
+  /* NAVBAR LATERALE */
   nav {
     grid-area: nav;
     /* margin-left: 0.5rem; */
@@ -93,9 +94,22 @@
   }
 
   .navbar-link {
-    width: fit-content;
-    transition: width 2s ease-in-out;
+    transition: width 0.5s ease-in-out;
   }
+
+  @media (min-width: 1024px) {
+    .navbar-link:hover {
+      width: 70px;
+    }
+  }
+
+  /*! A 875PX L'ANIMAZIONE DEVE ESSERE DISABILITATA PERCHè NON C'è SPAZIO */
+  @media (min-width: 875px) {
+    .navbar-link:hover {
+      width: 53px;
+    }
+  }
+
   .text-vertical-navbar {
     transform: rotate(-90deg);
   }
