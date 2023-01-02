@@ -17,7 +17,7 @@ function MainImg({ borderLateral }) {
           className="border-[1px] w-full img-main border-solid border-accent rounded-t-[100vmax] rounded-b-[100vmax] "
         />{" "}
       </div>
-      <div className="flex items-center justify-center my-10">
+      <div className="flex items-center justify-center my-10 cursor-pointer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
