@@ -89,17 +89,20 @@
     grid-area: nav;
     /* margin-left: 0.5rem; */
     /* background-color: blue; */
-    border: 1px solid var(--clr-accent);
+    /* border: 1px solid var(--clr-accent); */
   }
 
   .navbar-link {
     width: fit-content;
     transition: width 2s ease-in-out;
   }
-
-  .navbar-link:hover {
-    width: 100%;
+  .text-vertical-navbar {
+    transform: rotate(-90deg);
   }
+
+  /* .navbar-link:hover {
+    right: 0;
+  } */
 
   main {
     grid-area: content;
@@ -164,16 +167,6 @@
 
   .text-vertical-right:hover {
     margin-right: 0;
-  }
-
-  .text-vertical-right-navbar {
-    /* position: absolute; */
-    transform: rotate(-90deg);
-    /* transform-origin: left top 0; */
-    /* text-orientation: sideways; */
-    /* top: 50%; */
-    /* left: 50%;  */
-    font-stretch: condensed;
   }
 
   /* media queries */
