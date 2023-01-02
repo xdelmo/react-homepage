@@ -11,7 +11,7 @@ module.exports = {
       },
       fontFamily: {
         main: ["Barlow Condensed", "sans-serif"],
-        secondary: ["Roboto", "sans-serif"],
+        secondary: ["Roboto", "serif"],
       },
     },
   },
