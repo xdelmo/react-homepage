@@ -68,7 +68,6 @@
     gap: var(--gap);
     min-width: 100%;
     animation: scroll 10s linear infinite;
-    font-weight: 100;
   }
 
   @keyframes scroll {
