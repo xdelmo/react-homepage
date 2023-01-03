@@ -24,6 +24,18 @@
     scroll-behavior: smooth;
   }
 
+  /* per non far andare su tre righe "scopri il nostro brand" */
+  @media (max-width: 905px) {
+    html {
+      font-size: 15px;
+    }
+  }
+  /* @media (max-width: 400px) {
+    html {
+      font-size: 13px;
+    }
+  } */
+
   .container-grid {
     display: grid;
     width: 100%;
@@ -185,7 +197,7 @@
 
   /* media queries */
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .container-grid {
       grid-template-areas:
         "header"
@@ -203,9 +215,9 @@
         auto; /* Footer */
     }
 
-    nav,
+    /* nav,
     aside {
       margin: 0;
-    }
+    } */
   }
 }
