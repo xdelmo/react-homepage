@@ -21,7 +21,8 @@ function App() {
             <div className="flex items-center justify-center text-xl grid-span-1 border-b-[1px] border-solid border-accent uppercase">
               <span className="p-3">Scopri il nostro brand</span>
             </div>
-            <div className="grid-span-2 border-accent border-solid border-[1px] overflow-hidden flex items-center">
+            {/* <!-- MarqueeAnimation --> */}
+            <div className="grid-span-2 border-accent border-solid border-[1px] border-t-0 overflow-hidden flex items-center">
               <MarqueeAnimation />
             </div>
             {/* icona lente */}
