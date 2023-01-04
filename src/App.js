@@ -2,6 +2,7 @@
 import "./App.css";
 import Circle from "./components/Circle";
 import DropdownMobile from "./components/DropdownMobile";
+import FooterMobile from "./components/FooterMobile";
 import MainHomepage from "./components/MainHomepage";
 import MarqueeAnimation from "./components/MarqueeAnimation";
 import NavbarLateral from "./components/NavbarLateral";
@@ -10,7 +11,7 @@ function App() {
   return (
     <div className="App bg-primary font-main">
       {/* MOBILE APP */}
-      <div className="min-h-screen md:hidden bg-primary">
+      <div className="flex flex-col min-h-screen md:hidden bg-primary">
         <DropdownMobile />
         <main>
           {/* CAROSELLO */}
@@ -75,20 +76,14 @@ function App() {
               />
             </svg>
           </div>
-
-          {/* FOOTER */}
-          <div className="border-t border-solid border-accent grid-footer-mobile">
-            <div className="flex items-center justify-center grid-span-1-3">
-              <span className="font-semibold uppercase font-main text-[1.75rem]">
-                Lasciati consigliare
-              </span>
-            </div>
-            <div className="flex  items-center justify-end border-l-[1px] border-solid grid-span-3 border-accent">
-              <div className="w-12 h-12 m-4 rounded-full bg-accent"></div>
-            </div>
-          </div>
         </main>
+        {/* FOOTER */}
+
+        <div className="mt-auto">
+          <FooterMobile />
+        </div>
       </div>
+
       {/* DESKTOP APP */}
       <div className="hidden md:block">
         <div class="container-grid">
@@ -121,8 +116,8 @@ function App() {
           </header>
           <NavbarLateral />
           <MainHomepage />
+          {/* <!-- Sidebar / Ads --> */}
           <aside className="flex items-center border-accent border-l-[1px] justify-center overflow-hidden">
-            {/* <!-- Sidebar / Ads --> */}
             <div className="font-bold uppercase font-main text-[6rem] lg:text-[8rem] xl:text-[9.5rem] text-vertical-right">
               Occasioni
             </div>
